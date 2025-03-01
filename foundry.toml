@@ -6,6 +6,9 @@ ffi = true
 fs_permissions = [{ access = "read-write", path = ".forge-snapshots/"}]
 solc_version = "0.8.26"
 evm_version = "cancun"
+via_ir = true
+optimizer = true
+optimizer_runs = 200
 
 [rpc_endpoints]
 sepolia = "${SEPOLIA_RPC_URL}"
